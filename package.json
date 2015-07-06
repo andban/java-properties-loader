@@ -1,0 +1,24 @@
+{
+  "name": "java-properties-loader",
+  "version": "0.1.0",
+  "description": "webpack loader for Java .properties files",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp"
+  },
+  "author": "Andreas Bannach <andreas@borntohula.de>",
+  "license": "ISC",
+  "dependencies": {
+    "java-properties": "^0.2.4"
+  },
+  "devDependencies": {
+    "fs-extra": "^0.21.0",
+    "gulp": "^3.9.0",
+    "gulp-jshint": "^1.11.2",
+    "gulp-mocha": "^2.1.2",
+    "gulp-webpack": "^1.5.0",
+    "jshint-stylish": "^2.0.1",
+    "raw-loader": "^0.5.1",
+    "should": "^7.0.1"
+  }
+}
