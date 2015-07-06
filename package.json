@@ -6,8 +6,18 @@
   "scripts": {
     "test": "gulp"
   },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:andban/java-properties-loader.git"
+  },
+  "bugs": {
+    "url": "https://github.com/andban/java-properties-loader/issues"
+  },
   "author": "Andreas Bannach <andreas@borntohula.de>",
   "license": "ISC",
+  "files": [
+    "index.js"
+  ],
   "dependencies": {
     "java-properties": "^0.2.4"
   },
@@ -18,6 +28,7 @@
     "gulp-mocha": "^2.1.2",
     "gulp-webpack": "^1.5.0",
     "jshint-stylish": "^2.0.1",
+    "json-loader": "^0.5.2",
     "raw-loader": "^0.5.1",
     "should": "^7.0.1"
   }

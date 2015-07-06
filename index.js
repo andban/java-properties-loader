@@ -17,6 +17,6 @@ module.exports = function (source) {
     result[key] = props.get(key);
   });
 
-  return result;
+  return JSON.stringify(result);
 };
 
