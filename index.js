@@ -5,12 +5,7 @@ module.exports = function (source) {
     this.cacheable();
   }
 
-  var props = new PropertiesFile();
-
-  var lines = source.split(/\r?\n/);
-  lines.forEach(function (line) {
-    props.makeKeys(line);
-  });
+  var props = new PropertiesFile(this.resourcePath);
 
   var result = {};
   props.getKeys().forEach(function (key) {
