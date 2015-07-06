@@ -1,6 +1,6 @@
 # java-properties-loader [![Build Status](https://travis-ci.org/andban/java-properties-loader.svg)](https://travis-ci.org/andban/java-properties-loader) [![Code Climate](https://codeclimate.com/github/andban/java-properties-loader/badges/gpa.svg)](https://codeclimate.com/github/andban/java-properties-loader)
 
-A Java .resources loader for [webpack](https://github.com/webpack/webpack).
+A Java .properties file loader for [webpack](https://github.com/webpack/webpack).
 
 ## Usage
 
