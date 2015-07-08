@@ -1,6 +1,6 @@
 {
-  "a.key": "foo",
-  "b.key": "bar",
-  "c.key": "23"
+  "a": "foo",
+  "b": "bar",
+  "c": "23"
 }
 

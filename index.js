@@ -9,7 +9,11 @@ module.exports = function (source) {
 
   var result = {};
   props.getKeys().forEach(function (key) {
-    result[key] = props.get(key);
+    var keys = key.split('.');
+    keys.reduce(function (p, v, i) {
+      p[v] = (i < keys.length - 1) ? p[v] || {} : props.get(key);
+      return p[v];
+    }, result);
   });
 
   return JSON.stringify(result);
